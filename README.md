@@ -34,13 +34,6 @@ Monthly Spend = CALCULATE([Total Spend], ALLEXCEPT(Transactions, Transactions[Mo
 Spend by Category = SUM(Transactions[Amount])
 These DAX measures power the dynamic calculations used across KPI cards, charts, and filters.
 
-🗂️ Project Files
-File Name	Description
-CreditCardDashboard.pbix	Main Power BI report
-Screenshot.png	Dashboard screenshot preview
-README.md	This project documentation file
-Dataset.csv (optional)	Source data used for building the report
-
 🛠 Tools & Technologies
 Power BI Desktop
 
